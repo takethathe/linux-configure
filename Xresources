@@ -1,0 +1,238 @@
+!================================================================
+! 设置 Xftp.dpi(字体分辨率）
+!==================================================================
+
+! ------------------------------------------------------------------------------
+! --- generated with 4bit Terminal Color Scheme Designer -----------------------
+! ------------------------------------------------------------------------------
+! --- http://ciembor.github.com/4bit -------------------------------------------
+! ------------------------------------------------------------------------------
+
+! --- special colors ---
+
+!*background: #0d1926
+!*foreground: #d9e6f2
+!
+!! --- standard colors ---
+!
+!! black
+!*color0: #000000
+!
+!! bright_black
+!*color8: #262626
+!
+!! red
+!*color1: #b87a7a
+!
+!! bright_red
+!*color9: #dbbdbd
+!
+!! green
+!*color2: #7ab87a
+!
+!! bright_green
+!*color10: #bddbbd
+!
+!! yellow
+!*color3: #b8b87a
+!
+!! bright_yellow
+!*color11: #dbdbbd
+!
+!! blue
+!*color4: #7a7ab8
+!
+!! bright_blue
+!*color12: #bdbddb
+!
+!! magenta
+!*color5: #b87ab8
+!
+!! bright_magenta
+!*color13: #dbbddb
+!
+!! cyan
+!*color6: #7ab8b8
+!
+!! bright_cyan
+!*color14: #bddbdb
+!
+!! white
+!*color7: #d9d9d9
+!
+!! bright_white
+!*color15: #ffffff
+
+
+! Solarized color scheme for the X Window System
+!
+! http://ethanschoonover.com/solarized
+
+
+! Common
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+
+! Dark
+
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+! Light
+
+! #define S_base03        #fdf6e3
+! #define S_base02        #eee8d5
+! #define S_base01        #93a1a1
+! #define S_base00        #839496
+! #define S_base0         #657b83
+! #define S_base1         #586e75
+! #define S_base2         #073642
+! #define S_base3         #002b36
+
+
+! To only apply colors to your terminal, for example, prefix
+! the color assignment statement with its name. Example:
+!
+! URxvt*background:            S_base03
+
+URxvt*background:              S_base03
+URxvt*foreground:              S_base0
+URxvt*fading:                  40
+URxvt*fadeColor:               S_base03
+URxvt*cursorColor:             S_base1
+URxvt*pointerColorBackground:  S_base01
+URxvt*pointerColorForeground:  S_base1
+
+URxvt*color0:                  S_base02
+URxvt*color1:                  S_red
+URxvt*color2:                  S_green
+URxvt*color3:                  S_yellow
+URxvt*color4:                  S_blue
+URxvt*color5:                  S_magenta
+URxvt*color6:                  S_cyan
+URxvt*color7:                  S_base2
+URxvt*color9:                  S_orange
+URxvt*color8:                  S_base03
+URxvt*color10:                 S_base01
+URxvt*color11:                 S_base00
+URxvt*color12:                 S_base0
+URxvt*color13:                 S_violet
+URxvt*color14:                 S_base1
+URxvt*color15:                 S_base3
+
+! -------------------------------------------
+Xft.antialias:	1
+Xft.dpi:	96
+Xft.hinting:	1
+Xft.hintstyle:	hintlight
+Xft.lcdfilter:	lcddefault
+Xft.rgba:	none
+! Xft.hinting: none
+! RXVT setting
+!URxvt.background:black
+!URxvt.foreground:gray60
+URxvt.geometry: 110x35+180+200
+URxvt.colorBD:S_yellow
+URxvt.colorUL:S_green
+!URxvt.color0:black
+!URxvt.color1:red3
+!URxvt.color2:springgreen
+!URxvt.color3:wheat3
+!URxvt.color4:navy
+!URxvt.color5:magenta4
+!URxvt.color6:steelblue1
+!URxvt.color7:gray85
+!URxvt.color8:gray10
+!URxvt.color9:SkyBlue3
+!URxvt.color10:chartreuse3
+!URxvt.color11:lightgoldenrod2
+!URxvt.color12:skyblue1
+!URxvt.color13:pink1
+!URxvt.color14:lightblue1
+!URxvt.color15:#dbeff9
+URxvt.scrollBar:False
+URxvt.saveLines:3000
+!!URxvt.font:xft:Bitstream Vera Sans Mono-9,xft:WenQuanYi Bitmap Song-9
+URxvt.font:xft:Terminus-10,xft:WenQuanYi Bitmap Song-9
+!!URxvt.font:xft:Liberation Mono-9,xft:WenQuanYi Bitmap Song-9
+!!URxvt.font:xft:DejaVu Sans Mono-9:Book,xft:WenQuanYi Bitmap Song-9
+!!URxvt.boldFont:xft:Bitstream Vera Sans Mono-9:Bold,xft:WenQuanYi Bitmap Song-9:Bold
+URxvt.boldFont:xft:Terminus-10:Bold,xft:WenQuanYi Bitmap Song-9:Bold
+!!URxvt.boldFont:xft:Droid Sans Mono-9:Bold,xft:WenQuanYi Bitmap Song-9:Bold
+!!URxvt.boldFont:xft:Liberation Mono-9:Bold,xft:WenQuanYi Bitmap Song-9:Bold
+!!URxvt.boldFont:xft:DejaVu Sans Mono-9:Bold,xft:WenQuanYi Bitmap Song-9:Bold
+URxvt.preeditType:Root
+!URxvt.inheritPixmap: True
+!URxvt.tintColor: Grey25
+
+URxvt.intensityStyles: false
+
+!Emacs config
+Emacs.FontBackend:xft
+Emacs*useXIM: true
+!Emacs.Font:monospace-10
+
+XTerm*metaSendsEscape: true
+XTerm*eightBitInput: false
+XTerm*termName: xterm-256color
+XTerm*charClass: 33:48,35-38:48,39:43,42-47:48,58-59:48,61:48,63-64:48,126:48
+XTerm*internalBorder: 0
+xterm*borderWidth: 0
+XTerm*saveLines: 4096
+XTerm*scrollBar: False
+xterm*boldMode: True
+xterm*colorMode: True
+xterm*dynamicColors: True
+XTerm*renderFont: True
+xterm*bellIsUrgent: True
+xterm*visualBell: False
+XTerm*loginShell: True
+
+!XTerm*colorBDMode: on
+XTerm*colorBD:                 #af8700
+!XTerm*italicULMode: on
+XTerm*colorULMode: on
+XTerm*colorUL:                 #5f8700
+
+xterm*faceName: Terminus
+xterm*faceNameDoublesize:   WenQuanYi Micro Hei Mono
+xterm*faceSize: 10
+
+XTerm*cursorColor:             #ce6564
+XTerm*fading:                  40
+XTerm*fadeColor:               #1c1c1c
+XTerm*pointerColorBackground:  #585858
+XTerm*pointerColorForeground:  #8a8a8a
+
+XTerm*background:              #1c1c1c
+XTerm*foreground:              #808080
+XTerm*color0:                  #262626
+XTerm*color1:                  #d70000
+XTerm*color2:                  #5f8700
+XTerm*color3:                  #af8700
+XTerm*color4:                  #268bd2
+XTerm*color5:                  #af005f
+XTerm*color6:                  #00afaf
+XTerm*color7:                  #e4e4e4
+XTerm*color9:                  #d75f00
+XTerm*color8:                  #1c1c1c
+XTerm*color10:                 #585858
+XTerm*color11:                 #626262
+XTerm*color12:                 #808080
+XTerm*color13:                 #5f5faf
+XTerm*color14:                 #8a8a8a
+XTerm*color15:                 #ffffd7

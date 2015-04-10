@@ -1,0 +1,34 @@
+# Green text, time, and date; windows in blue:
+hardstatus alwayslastline
+hardstatus string '%{=b}%{b}%-w%{.BW}[%n %t]%{-}%+w %=%{G}%C%A, %Y-%m-%d' 
+#hardstatus alwayslastline "%{=b}%{b}%-w%{.BW}%10>%n*%t%{-}%+w%< %=%{kG}%C%A %D, %Y-%m-%d" 
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+##    Some general options    ##
+
+# Turn off start message:
+startup_message off   # default: on
+
+# Automatically detach on hangup, or the screen will keep eating your memory after the terminal emulator has been terminated.
+#autodetach off      # default: on
+
+# Set messages timeout to one second:
+msgwait 1
+
+# turn off the vbell
+vbell off
+
+#use bash as default shell.
+#shell bash
+shell zsh
+
+# 退出vim/nano之后自动刷新屏幕 
+altscreen on
+
+# 快捷键映射到C-z
+escape ^Zz
+
+# Enable rollback
+defscrollback 5000
+
+# Emacs
+acladd :window:

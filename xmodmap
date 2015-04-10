@@ -1,0 +1,21 @@
+!
+! Swap Alt, Control and Super
+!
+remove mod4 = Super_L
+remove mod4 = Super_R
+remove Control = Control_L
+remove Control = Control_R
+remove mod1 = Alt_L
+remove mod1 = Alt_R
+keycode 64 = Control_L
+keycode 108 = Control_R
+keycode 133 = Alt_L
+keycode 134 = Alt_R
+keycode 105 = Super_R
+keycode 37 = Super_L
+add mod4 = Super_L
+add mod4 = Super_R
+add Control = Control_L
+add Control = Control_R
+add mod1 = Alt_L
+add mod1 = Alt_R
